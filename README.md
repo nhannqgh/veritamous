@@ -1,4 +1,5 @@
 # Veritamous
+Veritamous (Veritas + Anonymous) is a company reviews platform that leverages Zero-Knowledge Proofs on the Midnight blockchain to ensure complete employee anonymity and robust data security.
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -9,6 +10,7 @@
 ## Finish your CI setup
 
 [Click here to finish setting up your workspace!](https://cloud.nx.app/connect/vxBs4RRylW)
+
 
 
 ## Run tasks
