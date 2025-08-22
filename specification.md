@@ -1,17 +1,80 @@
-
-# Veritamous - MVP Specification
+# Veritamous Specification (MVP)
 
 ## 📋 Introduction
 
 **Veritamous** is a platform that allows employees to share reviews about their companies in a completely anonymous and secure way. Using **Zero-Knowledge Proof (ZKP)** technology, the platform ensures that employees can verify their employment status without revealing their personal identity.
 
-### Main Objectives:
-- **Privacy-First**: Fully protect the identity of the reviewer
-- **Verifiable**: Ensure only real employees can submit reviews
-- **Transparent**: Provide reliable review information for job seekers
-- **Anonymous**: Reviews cannot be linked to the author
+---
 
-## 🚀 Core Features of the MVP
+## 1. Goals and Objectives
+
+- **Primary Goal:** Enable employees to share honest company reviews while fully protecting their identity and employment privacy.
+- **Problem Solved:** Lack of trustworthy, anonymous company reviews due to privacy concerns and unverifiable sources.
+- **Objectives:**
+  - Ensure only real employees can submit reviews (verifiable, not fake)
+  - Guarantee anonymity and privacy for reviewers
+  - Provide reliable, aggregated company insights for job seekers
+
+---
+
+## 2. Research & Market Understanding
+
+- **Market Needs:** Demand for authentic, anonymous company reviews; current platforms lack strong privacy guarantees.
+- **Competitors:** Glassdoor, Blind, TeamBlind, Fishbowl (none use ZKP for privacy).
+- **Trends:** Increasing employee demand for privacy and data protection.
+- **Target Early Adopters:** Tech industry employees, privacy-conscious professionals, companies with >50 employees.
+
+---
+
+## 3. Customer Pain Points
+
+- Fear of retaliation or exposure when leaving honest reviews
+- Inability to verify if reviews are from real employees
+- Lack of trust in existing review platforms
+- Desire for actionable, reliable company insights
+
+---
+
+## 4. Prioritized Core Features
+
+**4.1 ZK Email Domain Verification**
+   - Prove employment at a company without revealing identity or email
+   - Prevent duplicate reviews via nullifier
+
+**4.2 Anonymous Review Submission**
+   - Simple, category-based review form (ratings + free text)
+   - No personal data stored or linked
+
+**4.3 Company Directory**
+   - List/search companies, show basic info and review stats
+   - Admin adds/verifies companies and domains
+
+**4.4 Review Display & Aggregation**
+   - Anonymous review listing
+   - Aggregated statistics (average ratings, distributions)
+   - Minimum anonymity set before displaying reviews
+
+---
+
+## 5. MVP User Experience
+
+- **Onboarding:** User selects company, completes ZK email verification
+- **Review Flow:** After verification, user submits a review via a simple, intuitive form (ratings, pros/cons, advice)
+- **Browsing:** Users can search companies, view aggregated stats and anonymous reviews
+- **Privacy:** No account creation, no tracking, no personal data stored
+- **Anonymity:** Reviews only shown when enough submissions exist to protect identity
+
+---
+
+## 6. Feedback & Iteration Plan
+
+- **Feedback Collection:** In-app feedback form, optional anonymous survey after review submission
+- **Metrics:** Track number of verified reviews, company coverage, review distribution, user satisfaction (via survey)
+- **Iteration:** Use feedback and metrics to prioritize next features
+
+---
+
+## 🚀 MVP Feature Details
 
 ### 1. Email Domain Verification with ZK Proof
 
